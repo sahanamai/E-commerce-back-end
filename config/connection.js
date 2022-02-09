@@ -1,4 +1,4 @@
-require('dotenv').config({path: require('find-config')('dotenv')});
+require('dotenv').config({path: require('find-config')('.env')});
 const Sequelize = require('sequelize');
 
 
